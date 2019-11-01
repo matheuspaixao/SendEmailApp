@@ -59,54 +59,54 @@
             // lblTo
             // 
             this.lblTo.AutoSize = true;
-            this.lblTo.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTo.Font = new System.Drawing.Font("SansSerif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTo.Location = new System.Drawing.Point(9, 28);
             this.lblTo.Name = "lblTo";
-            this.lblTo.Size = new System.Drawing.Size(39, 19);
+            this.lblTo.Size = new System.Drawing.Size(49, 19);
             this.lblTo.TabIndex = 0;
             this.lblTo.Text = "Para:";
             // 
             // txtTo
             // 
-            this.txtTo.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTo.Font = new System.Drawing.Font("SansSerif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTo.Location = new System.Drawing.Point(97, 28);
             this.txtTo.Name = "txtTo";
-            this.txtTo.Size = new System.Drawing.Size(472, 25);
+            this.txtTo.Size = new System.Drawing.Size(472, 27);
             this.txtTo.TabIndex = 0;
             // 
             // txtCC
             // 
-            this.txtCC.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCC.Font = new System.Drawing.Font("SansSerif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCC.Location = new System.Drawing.Point(97, 57);
             this.txtCC.Name = "txtCC";
-            this.txtCC.Size = new System.Drawing.Size(472, 25);
+            this.txtCC.Size = new System.Drawing.Size(472, 27);
             this.txtCC.TabIndex = 1;
             // 
             // lblCC
             // 
             this.lblCC.AutoSize = true;
-            this.lblCC.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCC.Font = new System.Drawing.Font("SansSerif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCC.Location = new System.Drawing.Point(9, 57);
             this.lblCC.Name = "lblCC";
-            this.lblCC.Size = new System.Drawing.Size(30, 19);
+            this.lblCC.Size = new System.Drawing.Size(38, 19);
             this.lblCC.TabIndex = 2;
             this.lblCC.Text = "CC:";
             // 
             // txtSubject
             // 
-            this.txtSubject.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSubject.Font = new System.Drawing.Font("SansSerif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSubject.Location = new System.Drawing.Point(97, 87);
             this.txtSubject.Name = "txtSubject";
-            this.txtSubject.Size = new System.Drawing.Size(472, 25);
+            this.txtSubject.Size = new System.Drawing.Size(472, 27);
             this.txtSubject.TabIndex = 2;
             // 
             // lblSubject
             // 
             this.lblSubject.AutoSize = true;
-            this.lblSubject.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSubject.Font = new System.Drawing.Font("SansSerif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSubject.Location = new System.Drawing.Point(9, 87);
             this.lblSubject.Name = "lblSubject";
-            this.lblSubject.Size = new System.Drawing.Size(62, 19);
+            this.lblSubject.Size = new System.Drawing.Size(72, 19);
             this.lblSubject.TabIndex = 4;
             this.lblSubject.Text = "Assunto:";
             // 
@@ -115,7 +115,7 @@
             this.txtMessage.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtMessage.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMessage.Font = new System.Drawing.Font("SansSerif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMessage.Location = new System.Drawing.Point(97, 117);
             this.txtMessage.Multiline = true;
             this.txtMessage.Name = "txtMessage";
@@ -126,10 +126,10 @@
             // lblMessage
             // 
             this.lblMessage.AutoSize = true;
-            this.lblMessage.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblMessage.Font = new System.Drawing.Font("SansSerif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMessage.Location = new System.Drawing.Point(9, 117);
             this.lblMessage.Name = "lblMessage";
-            this.lblMessage.Size = new System.Drawing.Size(80, 19);
+            this.lblMessage.Size = new System.Drawing.Size(93, 19);
             this.lblMessage.TabIndex = 6;
             this.lblMessage.Text = "Mensagem:";
             // 
@@ -147,7 +147,7 @@
             this.grpSettings.Controls.Add(this.txtPassword);
             this.grpSettings.Controls.Add(this.txtPort);
             this.grpSettings.Controls.Add(this.lblPort);
-            this.grpSettings.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.grpSettings.Font = new System.Drawing.Font("SansSerif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grpSettings.Location = new System.Drawing.Point(97, 404);
             this.grpSettings.Name = "grpSettings";
             this.grpSettings.Size = new System.Drawing.Size(472, 136);
@@ -172,7 +172,7 @@
             this.chkSsl.CheckState = System.Windows.Forms.CheckState.Checked;
             this.chkSsl.Location = new System.Drawing.Point(401, 34);
             this.chkSsl.Name = "chkSsl";
-            this.chkSsl.Size = new System.Drawing.Size(52, 23);
+            this.chkSsl.Size = new System.Drawing.Size(62, 23);
             this.chkSsl.TabIndex = 5;
             this.chkSsl.Text = "SSL";
             this.chkSsl.UseVisualStyleBackColor = true;
@@ -181,11 +181,12 @@
             // 
             this.txtSender.Location = new System.Drawing.Point(88, 34);
             this.txtSender.Name = "txtSender";
-            this.txtSender.Size = new System.Drawing.Size(308, 25);
+            this.txtSender.Size = new System.Drawing.Size(308, 27);
             this.txtSender.TabIndex = 0;
             // 
             // btnSend
             // 
+            this.btnSend.Font = new System.Drawing.Font("SansSerif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSend.Location = new System.Drawing.Point(401, 94);
             this.btnSend.Name = "btnSend";
             this.btnSend.Size = new System.Drawing.Size(66, 26);
@@ -199,15 +200,16 @@
             this.lblSender.AutoSize = true;
             this.lblSender.Location = new System.Drawing.Point(10, 34);
             this.lblSender.Name = "lblSender";
-            this.lblSender.Size = new System.Drawing.Size(78, 19);
+            this.lblSender.Size = new System.Drawing.Size(91, 19);
             this.lblSender.TabIndex = 9;
             this.lblSender.Text = "Remetente:";
             // 
             // txtSmtp
             // 
+            this.txtSmtp.Font = new System.Drawing.Font("SansSerif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSmtp.Location = new System.Drawing.Point(217, 94);
             this.txtSmtp.Name = "txtSmtp";
-            this.txtSmtp.Size = new System.Drawing.Size(179, 25);
+            this.txtSmtp.Size = new System.Drawing.Size(179, 27);
             this.txtSmtp.TabIndex = 4;
             this.txtSmtp.Text = "smtp.gmail.com";
             // 
@@ -216,16 +218,17 @@
             this.lblPassword.AutoSize = true;
             this.lblPassword.Location = new System.Drawing.Point(10, 64);
             this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(49, 19);
+            this.lblPassword.Size = new System.Drawing.Size(61, 19);
             this.lblPassword.TabIndex = 11;
             this.lblPassword.Text = "Senha:";
             // 
             // lblSmtp
             // 
             this.lblSmtp.AutoSize = true;
+            this.lblSmtp.Font = new System.Drawing.Font("SansSerif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSmtp.Location = new System.Drawing.Point(173, 97);
             this.lblSmtp.Name = "lblSmtp";
-            this.lblSmtp.Size = new System.Drawing.Size(44, 19);
+            this.lblSmtp.Size = new System.Drawing.Size(44, 16);
             this.lblSmtp.TabIndex = 15;
             this.lblSmtp.Text = "Smtp:";
             // 
@@ -233,7 +236,7 @@
             // 
             this.txtPassword.Location = new System.Drawing.Point(88, 64);
             this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(308, 25);
+            this.txtPassword.Size = new System.Drawing.Size(308, 27);
             this.txtPassword.TabIndex = 1;
             this.txtPassword.UseSystemPasswordChar = true;
             // 
@@ -241,7 +244,7 @@
             // 
             this.txtPort.Location = new System.Drawing.Point(88, 94);
             this.txtPort.Name = "txtPort";
-            this.txtPort.Size = new System.Drawing.Size(70, 25);
+            this.txtPort.Size = new System.Drawing.Size(70, 27);
             this.txtPort.TabIndex = 3;
             this.txtPort.Text = "587";
             // 
@@ -250,7 +253,7 @@
             this.lblPort.AutoSize = true;
             this.lblPort.Location = new System.Drawing.Point(10, 94);
             this.lblPort.Name = "lblPort";
-            this.lblPort.Size = new System.Drawing.Size(44, 19);
+            this.lblPort.Size = new System.Drawing.Size(53, 19);
             this.lblPort.TabIndex = 13;
             this.lblPort.Text = "Porta:";
             // 
@@ -258,17 +261,17 @@
             // 
             this.lblAttachment.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblAttachment.AutoSize = true;
-            this.lblAttachment.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAttachment.Font = new System.Drawing.Font("SansSerif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblAttachment.Location = new System.Drawing.Point(9, 329);
             this.lblAttachment.Name = "lblAttachment";
-            this.lblAttachment.Size = new System.Drawing.Size(56, 19);
+            this.lblAttachment.Size = new System.Drawing.Size(67, 19);
             this.lblAttachment.TabIndex = 10;
             this.lblAttachment.Text = "Anexos:";
             // 
             // btnAttachment
             // 
             this.btnAttachment.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.btnAttachment.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAttachment.Font = new System.Drawing.Font("SansSerif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAttachment.Location = new System.Drawing.Point(525, 331);
             this.btnAttachment.Name = "btnAttachment";
             this.btnAttachment.Size = new System.Drawing.Size(44, 28);
@@ -280,12 +283,12 @@
             // lstAttachments
             // 
             this.lstAttachments.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.lstAttachments.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lstAttachments.Font = new System.Drawing.Font("SansSerif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lstAttachments.FormattingEnabled = true;
-            this.lstAttachments.ItemHeight = 17;
+            this.lstAttachments.ItemHeight = 20;
             this.lstAttachments.Location = new System.Drawing.Point(97, 331);
             this.lstAttachments.Name = "lstAttachments";
-            this.lstAttachments.Size = new System.Drawing.Size(423, 55);
+            this.lstAttachments.Size = new System.Drawing.Size(423, 44);
             this.lstAttachments.TabIndex = 12;
             this.lstAttachments.KeyDown += new System.Windows.Forms.KeyEventHandler(this.lstAttachments_KeyDown);
             // 
@@ -293,7 +296,7 @@
             // 
             this.lblQtdAttachments.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblQtdAttachments.AutoSize = true;
-            this.lblQtdAttachments.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblQtdAttachments.Font = new System.Drawing.Font("SansSerif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblQtdAttachments.Location = new System.Drawing.Point(525, 369);
             this.lblQtdAttachments.Name = "lblQtdAttachments";
             this.lblQtdAttachments.Size = new System.Drawing.Size(0, 19);
