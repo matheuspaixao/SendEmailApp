@@ -91,6 +91,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="icon_email.ico" />
+    <None Include="Resources\icon_plus.png" />
     <None Include="Resources\icon_email.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

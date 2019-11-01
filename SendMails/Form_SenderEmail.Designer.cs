@@ -180,9 +180,9 @@
             // txtSender
             // 
             this.txtSender.Location = new System.Drawing.Point(107, 34);
-            this.txtSender.MinimumSize = new System.Drawing.Size(0, 30);
+            this.txtSender.MinimumSize = new System.Drawing.Size(4, 30);
             this.txtSender.Name = "txtSender";
-            this.txtSender.Size = new System.Drawing.Size(307, 30);
+            this.txtSender.Size = new System.Drawing.Size(307, 27);
             this.txtSender.TabIndex = 0;
             // 
             // btnSend
@@ -271,13 +271,12 @@
             // 
             // btnAttachment
             // 
-            this.btnAttachment.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnAttachment.Font = new System.Drawing.Font("SansSerif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAttachment.Location = new System.Drawing.Point(560, 369);
+            this.btnAttachment.Location = new System.Drawing.Point(553, 369);
             this.btnAttachment.Name = "btnAttachment";
-            this.btnAttachment.Size = new System.Drawing.Size(44, 28);
+            this.btnAttachment.Size = new System.Drawing.Size(51, 28);
             this.btnAttachment.TabIndex = 11;
-            this.btnAttachment.Text = "...";
+            this.btnAttachment.Text = "Add";
             this.btnAttachment.UseVisualStyleBackColor = true;
             this.btnAttachment.Click += new System.EventHandler(this.btnAttachment_Click);
             // 
@@ -289,7 +288,7 @@
             this.lstAttachments.ItemHeight = 20;
             this.lstAttachments.Location = new System.Drawing.Point(108, 369);
             this.lstAttachments.Name = "lstAttachments";
-            this.lstAttachments.Size = new System.Drawing.Size(446, 44);
+            this.lstAttachments.Size = new System.Drawing.Size(439, 44);
             this.lstAttachments.TabIndex = 12;
             this.lstAttachments.KeyDown += new System.Windows.Forms.KeyEventHandler(this.lstAttachments_KeyDown);
             // 
