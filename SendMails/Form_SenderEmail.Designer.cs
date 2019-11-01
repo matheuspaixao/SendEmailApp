@@ -69,24 +69,24 @@
             // txtTo
             // 
             this.txtTo.Font = new System.Drawing.Font("SansSerif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTo.Location = new System.Drawing.Point(97, 28);
+            this.txtTo.Location = new System.Drawing.Point(108, 28);
             this.txtTo.Name = "txtTo";
-            this.txtTo.Size = new System.Drawing.Size(472, 27);
+            this.txtTo.Size = new System.Drawing.Size(496, 27);
             this.txtTo.TabIndex = 0;
             // 
             // txtCC
             // 
             this.txtCC.Font = new System.Drawing.Font("SansSerif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCC.Location = new System.Drawing.Point(97, 57);
+            this.txtCC.Location = new System.Drawing.Point(108, 61);
             this.txtCC.Name = "txtCC";
-            this.txtCC.Size = new System.Drawing.Size(472, 27);
+            this.txtCC.Size = new System.Drawing.Size(496, 27);
             this.txtCC.TabIndex = 1;
             // 
             // lblCC
             // 
             this.lblCC.AutoSize = true;
             this.lblCC.Font = new System.Drawing.Font("SansSerif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCC.Location = new System.Drawing.Point(9, 57);
+            this.lblCC.Location = new System.Drawing.Point(9, 61);
             this.lblCC.Name = "lblCC";
             this.lblCC.Size = new System.Drawing.Size(38, 19);
             this.lblCC.TabIndex = 2;
@@ -95,16 +95,16 @@
             // txtSubject
             // 
             this.txtSubject.Font = new System.Drawing.Font("SansSerif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSubject.Location = new System.Drawing.Point(97, 87);
+            this.txtSubject.Location = new System.Drawing.Point(108, 94);
             this.txtSubject.Name = "txtSubject";
-            this.txtSubject.Size = new System.Drawing.Size(472, 27);
+            this.txtSubject.Size = new System.Drawing.Size(496, 27);
             this.txtSubject.TabIndex = 2;
             // 
             // lblSubject
             // 
             this.lblSubject.AutoSize = true;
             this.lblSubject.Font = new System.Drawing.Font("SansSerif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSubject.Location = new System.Drawing.Point(9, 87);
+            this.lblSubject.Location = new System.Drawing.Point(9, 94);
             this.lblSubject.Name = "lblSubject";
             this.lblSubject.Size = new System.Drawing.Size(72, 19);
             this.lblSubject.TabIndex = 4;
@@ -116,18 +116,18 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtMessage.Font = new System.Drawing.Font("SansSerif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMessage.Location = new System.Drawing.Point(97, 117);
+            this.txtMessage.Location = new System.Drawing.Point(108, 127);
             this.txtMessage.Multiline = true;
             this.txtMessage.Name = "txtMessage";
             this.txtMessage.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtMessage.Size = new System.Drawing.Size(472, 205);
+            this.txtMessage.Size = new System.Drawing.Size(496, 236);
             this.txtMessage.TabIndex = 3;
             // 
             // lblMessage
             // 
             this.lblMessage.AutoSize = true;
             this.lblMessage.Font = new System.Drawing.Font("SansSerif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMessage.Location = new System.Drawing.Point(9, 117);
+            this.lblMessage.Location = new System.Drawing.Point(9, 127);
             this.lblMessage.Name = "lblMessage";
             this.lblMessage.Size = new System.Drawing.Size(93, 19);
             this.lblMessage.TabIndex = 6;
@@ -148,9 +148,9 @@
             this.grpSettings.Controls.Add(this.txtPort);
             this.grpSettings.Controls.Add(this.lblPort);
             this.grpSettings.Font = new System.Drawing.Font("SansSerif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grpSettings.Location = new System.Drawing.Point(97, 404);
+            this.grpSettings.Location = new System.Drawing.Point(108, 432);
             this.grpSettings.Name = "grpSettings";
-            this.grpSettings.Size = new System.Drawing.Size(472, 136);
+            this.grpSettings.Size = new System.Drawing.Size(496, 140);
             this.grpSettings.TabIndex = 8;
             this.grpSettings.TabStop = false;
             this.grpSettings.Text = "Configuração";
@@ -158,7 +158,7 @@
             // btnShowPassword
             // 
             this.btnShowPassword.Image = ((System.Drawing.Image)(resources.GetObject("btnShowPassword.Image")));
-            this.btnShowPassword.Location = new System.Drawing.Point(401, 63);
+            this.btnShowPassword.Location = new System.Drawing.Point(420, 66);
             this.btnShowPassword.Name = "btnShowPassword";
             this.btnShowPassword.Size = new System.Drawing.Size(30, 26);
             this.btnShowPassword.TabIndex = 2;
@@ -170,7 +170,7 @@
             this.chkSsl.AutoSize = true;
             this.chkSsl.Checked = true;
             this.chkSsl.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chkSsl.Location = new System.Drawing.Point(401, 34);
+            this.chkSsl.Location = new System.Drawing.Point(420, 34);
             this.chkSsl.Name = "chkSsl";
             this.chkSsl.Size = new System.Drawing.Size(62, 23);
             this.chkSsl.TabIndex = 5;
@@ -179,15 +179,16 @@
             // 
             // txtSender
             // 
-            this.txtSender.Location = new System.Drawing.Point(88, 34);
+            this.txtSender.Location = new System.Drawing.Point(107, 34);
+            this.txtSender.MinimumSize = new System.Drawing.Size(0, 30);
             this.txtSender.Name = "txtSender";
-            this.txtSender.Size = new System.Drawing.Size(308, 27);
+            this.txtSender.Size = new System.Drawing.Size(307, 30);
             this.txtSender.TabIndex = 0;
             // 
             // btnSend
             // 
             this.btnSend.Font = new System.Drawing.Font("SansSerif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSend.Location = new System.Drawing.Point(401, 94);
+            this.btnSend.Location = new System.Drawing.Point(420, 100);
             this.btnSend.Name = "btnSend";
             this.btnSend.Size = new System.Drawing.Size(66, 26);
             this.btnSend.TabIndex = 6;
@@ -207,7 +208,7 @@
             // txtSmtp
             // 
             this.txtSmtp.Font = new System.Drawing.Font("SansSerif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSmtp.Location = new System.Drawing.Point(217, 94);
+            this.txtSmtp.Location = new System.Drawing.Point(236, 100);
             this.txtSmtp.Name = "txtSmtp";
             this.txtSmtp.Size = new System.Drawing.Size(179, 27);
             this.txtSmtp.TabIndex = 4;
@@ -216,7 +217,7 @@
             // lblPassword
             // 
             this.lblPassword.AutoSize = true;
-            this.lblPassword.Location = new System.Drawing.Point(10, 64);
+            this.lblPassword.Location = new System.Drawing.Point(10, 67);
             this.lblPassword.Name = "lblPassword";
             this.lblPassword.Size = new System.Drawing.Size(61, 19);
             this.lblPassword.TabIndex = 11;
@@ -226,7 +227,7 @@
             // 
             this.lblSmtp.AutoSize = true;
             this.lblSmtp.Font = new System.Drawing.Font("SansSerif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSmtp.Location = new System.Drawing.Point(173, 97);
+            this.lblSmtp.Location = new System.Drawing.Point(192, 103);
             this.lblSmtp.Name = "lblSmtp";
             this.lblSmtp.Size = new System.Drawing.Size(44, 16);
             this.lblSmtp.TabIndex = 15;
@@ -234,7 +235,7 @@
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(88, 64);
+            this.txtPassword.Location = new System.Drawing.Point(107, 67);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(308, 27);
             this.txtPassword.TabIndex = 1;
@@ -242,7 +243,7 @@
             // 
             // txtPort
             // 
-            this.txtPort.Location = new System.Drawing.Point(88, 94);
+            this.txtPort.Location = new System.Drawing.Point(107, 100);
             this.txtPort.Name = "txtPort";
             this.txtPort.Size = new System.Drawing.Size(70, 27);
             this.txtPort.TabIndex = 3;
@@ -251,7 +252,7 @@
             // lblPort
             // 
             this.lblPort.AutoSize = true;
-            this.lblPort.Location = new System.Drawing.Point(10, 94);
+            this.lblPort.Location = new System.Drawing.Point(10, 100);
             this.lblPort.Name = "lblPort";
             this.lblPort.Size = new System.Drawing.Size(53, 19);
             this.lblPort.TabIndex = 13;
@@ -262,7 +263,7 @@
             this.lblAttachment.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblAttachment.AutoSize = true;
             this.lblAttachment.Font = new System.Drawing.Font("SansSerif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAttachment.Location = new System.Drawing.Point(9, 329);
+            this.lblAttachment.Location = new System.Drawing.Point(9, 369);
             this.lblAttachment.Name = "lblAttachment";
             this.lblAttachment.Size = new System.Drawing.Size(67, 19);
             this.lblAttachment.TabIndex = 10;
@@ -272,7 +273,7 @@
             // 
             this.btnAttachment.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnAttachment.Font = new System.Drawing.Font("SansSerif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAttachment.Location = new System.Drawing.Point(525, 331);
+            this.btnAttachment.Location = new System.Drawing.Point(560, 369);
             this.btnAttachment.Name = "btnAttachment";
             this.btnAttachment.Size = new System.Drawing.Size(44, 28);
             this.btnAttachment.TabIndex = 11;
@@ -286,9 +287,9 @@
             this.lstAttachments.Font = new System.Drawing.Font("SansSerif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lstAttachments.FormattingEnabled = true;
             this.lstAttachments.ItemHeight = 20;
-            this.lstAttachments.Location = new System.Drawing.Point(97, 331);
+            this.lstAttachments.Location = new System.Drawing.Point(108, 369);
             this.lstAttachments.Name = "lstAttachments";
-            this.lstAttachments.Size = new System.Drawing.Size(423, 44);
+            this.lstAttachments.Size = new System.Drawing.Size(446, 44);
             this.lstAttachments.TabIndex = 12;
             this.lstAttachments.KeyDown += new System.Windows.Forms.KeyEventHandler(this.lstAttachments_KeyDown);
             // 
@@ -297,7 +298,7 @@
             this.lblQtdAttachments.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblQtdAttachments.AutoSize = true;
             this.lblQtdAttachments.Font = new System.Drawing.Font("SansSerif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblQtdAttachments.Location = new System.Drawing.Point(525, 369);
+            this.lblQtdAttachments.Location = new System.Drawing.Point(528, 420);
             this.lblQtdAttachments.Name = "lblQtdAttachments";
             this.lblQtdAttachments.Size = new System.Drawing.Size(0, 19);
             this.lblQtdAttachments.TabIndex = 13;
@@ -306,7 +307,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(583, 553);
+            this.ClientSize = new System.Drawing.Size(616, 584);
             this.Controls.Add(this.lblQtdAttachments);
             this.Controls.Add(this.lstAttachments);
             this.Controls.Add(this.btnAttachment);
@@ -322,7 +323,7 @@
             this.Controls.Add(this.lblTo);
             this.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MinimumSize = new System.Drawing.Size(601, 600);
+            this.MinimumSize = new System.Drawing.Size(634, 631);
             this.Name = "Form_SendEmail";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Enviar email";
