@@ -30,10 +30,18 @@ namespace SendMails
         {
             try
             {
+                Cursor = Cursors.WaitCursor;
+                btnSend.Enabled = false;
+
                 SendMail();
+
+                Cursor = Cursors.Default;
+                btnSend.Enabled = true;
             }
             catch (Exception ex)
             {
+                Cursor = Cursors.Default;
+                btnSend.Enabled = true;
                 MessageBox.Show(ex.Message);
             }            
         }
@@ -42,9 +50,6 @@ namespace SendMails
         {
             try
             {
-                Cursor = Cursors.WaitCursor;
-                btnSend.Enabled = false;
-
                 if (isValidFields())
                 {
                     login = new NetworkCredential(txtSender.Text, txtPassword.Text);
@@ -73,9 +78,7 @@ namespace SendMails
                 }
             }
             catch (Exception ex)
-            {
-                Cursor = Cursors.Default;
-                btnSend.Enabled = true;
+            {                
                 MessageBox.Show("Ocorreu uma exceção: " + ex.Message.ToString());
             }
         }
