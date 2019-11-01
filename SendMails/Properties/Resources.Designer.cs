@@ -61,6 +61,16 @@ namespace SendMails.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+        /// </summary>
+        internal static System.Drawing.Icon icon_email {
+            get {
+                object obj = ResourceManager.GetObject("icon_email", resourceCulture);
+                return ((System.Drawing.Icon)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap icon_eye {
@@ -76,6 +86,16 @@ namespace SendMails.Properties {
         internal static System.Drawing.Bitmap icon_eye_stroke {
             get {
                 object obj = ResourceManager.GetObject("icon_eye_stroke", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_plus {
+            get {
+                object obj = ResourceManager.GetObject("icon_plus", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
