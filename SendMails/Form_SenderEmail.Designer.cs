@@ -62,14 +62,14 @@
             this.lblTo.Font = new System.Drawing.Font("SansSerif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTo.Location = new System.Drawing.Point(9, 28);
             this.lblTo.Name = "lblTo";
-            this.lblTo.Size = new System.Drawing.Size(49, 19);
+            this.lblTo.Size = new System.Drawing.Size(109, 19);
             this.lblTo.TabIndex = 0;
-            this.lblTo.Text = "Para:";
+            this.lblTo.Text = "Destinatários:";
             // 
             // txtTo
             // 
             this.txtTo.Font = new System.Drawing.Font("SansSerif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTo.Location = new System.Drawing.Point(108, 28);
+            this.txtTo.Location = new System.Drawing.Point(124, 28);
             this.txtTo.Name = "txtTo";
             this.txtTo.Size = new System.Drawing.Size(496, 27);
             this.txtTo.TabIndex = 0;
@@ -77,7 +77,7 @@
             // txtCC
             // 
             this.txtCC.Font = new System.Drawing.Font("SansSerif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCC.Location = new System.Drawing.Point(108, 61);
+            this.txtCC.Location = new System.Drawing.Point(124, 61);
             this.txtCC.Name = "txtCC";
             this.txtCC.Size = new System.Drawing.Size(496, 27);
             this.txtCC.TabIndex = 1;
@@ -95,7 +95,7 @@
             // txtSubject
             // 
             this.txtSubject.Font = new System.Drawing.Font("SansSerif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSubject.Location = new System.Drawing.Point(108, 94);
+            this.txtSubject.Location = new System.Drawing.Point(124, 94);
             this.txtSubject.Name = "txtSubject";
             this.txtSubject.Size = new System.Drawing.Size(496, 27);
             this.txtSubject.TabIndex = 2;
@@ -116,11 +116,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtMessage.Font = new System.Drawing.Font("SansSerif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMessage.Location = new System.Drawing.Point(108, 127);
+            this.txtMessage.Location = new System.Drawing.Point(124, 127);
             this.txtMessage.Multiline = true;
             this.txtMessage.Name = "txtMessage";
             this.txtMessage.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.txtMessage.Size = new System.Drawing.Size(496, 236);
+            this.txtMessage.Size = new System.Drawing.Size(496, 191);
             this.txtMessage.TabIndex = 3;
             // 
             // lblMessage
@@ -148,7 +148,7 @@
             this.grpSettings.Controls.Add(this.txtPort);
             this.grpSettings.Controls.Add(this.lblPort);
             this.grpSettings.Font = new System.Drawing.Font("SansSerif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.grpSettings.Location = new System.Drawing.Point(108, 432);
+            this.grpSettings.Location = new System.Drawing.Point(124, 386);
             this.grpSettings.Name = "grpSettings";
             this.grpSettings.Size = new System.Drawing.Size(496, 140);
             this.grpSettings.TabIndex = 8;
@@ -187,13 +187,17 @@
             // 
             // btnSend
             // 
-            this.btnSend.Font = new System.Drawing.Font("SansSerif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSend.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(123)))), ((int)(((byte)(230)))));
+            this.btnSend.FlatAppearance.BorderSize = 0;
+            this.btnSend.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSend.Font = new System.Drawing.Font("SansSerif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSend.ForeColor = System.Drawing.Color.White;
             this.btnSend.Location = new System.Drawing.Point(420, 100);
             this.btnSend.Name = "btnSend";
             this.btnSend.Size = new System.Drawing.Size(66, 26);
             this.btnSend.TabIndex = 6;
             this.btnSend.Text = "Enviar";
-            this.btnSend.UseVisualStyleBackColor = true;
+            this.btnSend.UseVisualStyleBackColor = false;
             this.btnSend.Click += new System.EventHandler(this.btnSend_Click);
             // 
             // lblSender
@@ -263,7 +267,7 @@
             this.lblAttachment.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblAttachment.AutoSize = true;
             this.lblAttachment.Font = new System.Drawing.Font("SansSerif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAttachment.Location = new System.Drawing.Point(9, 369);
+            this.lblAttachment.Location = new System.Drawing.Point(9, 324);
             this.lblAttachment.Name = "lblAttachment";
             this.lblAttachment.Size = new System.Drawing.Size(67, 19);
             this.lblAttachment.TabIndex = 10;
@@ -271,8 +275,9 @@
             // 
             // btnAttachment
             // 
+            this.btnAttachment.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.btnAttachment.Font = new System.Drawing.Font("SansSerif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAttachment.Location = new System.Drawing.Point(553, 369);
+            this.btnAttachment.Location = new System.Drawing.Point(569, 324);
             this.btnAttachment.Name = "btnAttachment";
             this.btnAttachment.Size = new System.Drawing.Size(51, 28);
             this.btnAttachment.TabIndex = 11;
@@ -286,7 +291,7 @@
             this.lstAttachments.Font = new System.Drawing.Font("SansSerif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lstAttachments.FormattingEnabled = true;
             this.lstAttachments.ItemHeight = 20;
-            this.lstAttachments.Location = new System.Drawing.Point(108, 369);
+            this.lstAttachments.Location = new System.Drawing.Point(124, 324);
             this.lstAttachments.Name = "lstAttachments";
             this.lstAttachments.Size = new System.Drawing.Size(439, 44);
             this.lstAttachments.TabIndex = 12;
@@ -297,7 +302,7 @@
             this.lblQtdAttachments.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lblQtdAttachments.AutoSize = true;
             this.lblQtdAttachments.Font = new System.Drawing.Font("SansSerif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblQtdAttachments.Location = new System.Drawing.Point(528, 420);
+            this.lblQtdAttachments.Location = new System.Drawing.Point(554, 370);
             this.lblQtdAttachments.Name = "lblQtdAttachments";
             this.lblQtdAttachments.Size = new System.Drawing.Size(0, 19);
             this.lblQtdAttachments.TabIndex = 13;
@@ -306,7 +311,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(616, 584);
+            this.ClientSize = new System.Drawing.Size(638, 538);
             this.Controls.Add(this.lblQtdAttachments);
             this.Controls.Add(this.lstAttachments);
             this.Controls.Add(this.btnAttachment);
@@ -322,10 +327,11 @@
             this.Controls.Add(this.lblTo);
             this.Font = new System.Drawing.Font("Segoe UI", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MinimumSize = new System.Drawing.Size(634, 631);
+            this.MinimumSize = new System.Drawing.Size(650, 500);
             this.Name = "Form_SendEmail";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Enviar email";
+            this.Enter += new System.EventHandler(this.btnSend_Click);
             this.grpSettings.ResumeLayout(false);
             this.grpSettings.PerformLayout();
             this.ResumeLayout(false);
