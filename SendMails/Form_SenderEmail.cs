@@ -66,7 +66,7 @@ namespace SendMails
                     foreach (var item in attachments)
                         msg.Attachments.Add(new Attachment(item.Key));
 
-                    msg.Subject = txtSubject.Text;
+                    msg.Subject = txtSubject.Text.Trim().Equals("") ? "(sem assunto)" : txtSubject.Text;
                     msg.Body = txtSubject.Text;
                     msg.BodyEncoding = Encoding.UTF8;
                     msg.IsBodyHtml = true;
